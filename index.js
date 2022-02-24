@@ -18,3 +18,13 @@ app.get("/test", function(request, response)  {
    
     response.render("testPage");
 });
+
+app.get("/log", function(request, response)  {
+   
+    response.render("logPage");
+});
+
+app.get("/pop", function(request, response)  {
+   
+    response.render("popPage");
+});
